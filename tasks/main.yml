@@ -1,0 +1,19 @@
+---
+# tasks file for qrom.myrole
+- name: Install apache
+  yum:
+    name: httpd
+    state: present
+
+- name: some info
+  copy:
+    content: |
+        Hello world
+    dest: /var/www/html/index.html
+    mode: 0777   
+
+- name: start
+  service:
+    name: httpd
+    state: started
+
