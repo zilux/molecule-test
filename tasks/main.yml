@@ -2,7 +2,7 @@
 # tasks file for qrom.myrole
 - name: Install apache
   yum:
-    name: httpd
+    name: apache2
     state: present
 
 - name: some info
@@ -14,5 +14,5 @@
 
 - name: start
   service:
-    name: httpd
+    name: apache2
     state: started
