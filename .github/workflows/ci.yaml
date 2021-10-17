@@ -8,9 +8,9 @@ name: CI
 
 jobs:        
 
-   test:
-     name: Molecule      
-     runs-on: ubuntu-latest
+  test:
+    name: Molecule      
+    runs-on: ubuntu-latest
 
    steps:
        - name: Check out de codebase
