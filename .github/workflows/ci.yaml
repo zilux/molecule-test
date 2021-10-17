@@ -12,7 +12,7 @@ jobs:
     name: Molecule      
     runs-on: ubuntu-latest
 
-   steps:
+    steps:
        - name: Check out de codebase
          uses: actions/checkout@v2
 
