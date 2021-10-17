@@ -6,7 +6,7 @@ name: CI
     branches:
       - master
 
- jobs:        
+jobs:        
 
    test:
      name: Molecule      
